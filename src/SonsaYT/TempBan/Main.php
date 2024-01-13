@@ -29,8 +29,8 @@ use pocketmine\event\entity\EntityDamageEvent;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\utils\Config;
 
-use SonsaYT\TempBan\command\BanCommand;
-use SonsaYT\TempBan\command\TCheckCommand;
+use SonsaYT\TempBan\commands\BanCommand;
+use SonsaYT\TempBan\commands\TCheckCommand;
 
 use Vecnavium\FormsUI\SimpleForm;
 use Vecnavium\FormsUI\CustomForm;
