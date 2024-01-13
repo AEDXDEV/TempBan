@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/AEDXDEV/TempBan
+build-by-default: true
+branches:
+- main
+projects:
+  TempBan:
+    path: ""
+    icon: "images/icon.png"
+...
