@@ -1,0 +1,11 @@
+name: TempBan
+main: SonsaYT\TempBan\Main
+api: [5.0.0]
+version: 2.5.0
+authors: [SonsaYT, Laith98Dev, AEDXDEV]
+
+permissions:
+  tempban.command:
+    default: op
+  tempban.command.tcheck:
+    default: op
