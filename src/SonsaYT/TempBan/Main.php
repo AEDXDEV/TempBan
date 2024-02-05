@@ -64,7 +64,8 @@ class Main extends PluginBase implements Listener {
     if(($cmd = $this->getServer()->getCommandMap()->getCommand("ban")) instanceof Command){
       $this->getServer()->getCommandMap()->unregister($cmd);
     }
-    $this->getServer()->getCommandMap()->register($this->getName(), [new BanCommand($this), new TCheckCommand($this)]);
+	  $this->getServer()->getCommandMap()->register("ban", new BanCommand($this));
+    $this->getServer()->getCommandMap()->register("tcheck", new TCheckCommand($this));
 	  $this->cfg = new Config($this->getDataFolder() . "config.yml", Config::YAML);
 	  $this->initDatabase();
   }
